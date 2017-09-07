@@ -9,10 +9,16 @@
 		border-width: 10px;
 		border-style: dotted;
 		border-radius: 10px;
+		margin: 10px 100px 10px 100px;
 	}
 	
+	.register-field-text {
+
+	}
 	.register-field-labels {
 		text-align: center;
+		margin: 10px 100px 10px 10px;
+		//padding: 10px 10px 10px 10px;
 	}
 </style>
 
@@ -23,16 +29,21 @@
 	<h1>Register New User</h1>
 	
 		<form id="register-form" action="/submit-new-user">
-			<p class="register-field-labels">First Name</p>
+			<p class="register-field-labels"> First Name 
 			<input type="text" placeholder="First Name">
-			<p class="register-field-labels">Last Name</p>
-			<input type="text" placeholder="Last Name">
-			<p class="register-field-labels">E-mail</p>
-			<input type="text" placeholder="Email">
-			<p class="register-field-labels">Username</p>
-			<input type="text" placeholder="Username">
-			<p class="register-field-labels">Password</p>
-			<input type="text" placeholder="Password">
+			</p>
+			<p class="register-field-labels">Last Name
+				<input type="text" placeholder="Last Name">
+			</p>
+			<p class="register-field-labels">E-mail
+				<input type="text" placeholder="Email">
+			</p>
+			<p class="register-field-labels">Username
+				<input type="text" placeholder="Username">
+			</p>
+			<p class="register-field-labels">Password
+				<input type="text" placeholder="Password">
+			</p>
 			<p>
 				<button type="submit">Register</button>
 			</p>
