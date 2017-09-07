@@ -1,8 +1,40 @@
+<style>
+	h1 {
+		font-family: sans-serif;
+		text-align: center;
+	}
+	
+	#register-form {
+		border-color: silver;
+		border-width: 10px;
+		border-style: dotted;
+		border-radius: 10px;
+	}
+	
+	.register-field-labels {
+		text-align: center;
+	}
+</style>
+
 <!DOCTYPE html>
 <html>
 	<head><title>www.JTekSolutions.com</title></head>
 	<body>
-		<h1>This is the start!</h1>
-		<h1>OF THE GREATEST JOURNEY</h1>
+	<h1>Register New User</h1>
+	
+		<form id="register-form" action="/submit-new-user">
+			<p class="register-field-labels">First Name</p>
+			<input type="text" placeholder="First Name">
+			<p class="register-field-labels">Last Name</p>
+			<input type="text" placeholder="Last Name">
+			<p class="register-field-labels">E-mail</p>
+			<input type="text" placeholder="Email">
+			<p class="register-field-labels">Username</p>
+			<input type="text" placeholder="Username">
+			<p class="register-field-labels">Password</p>
+			<input type="text" placeholder="Password">
+			<p>
+				<button type="submit">Register</button>
+			</p>
 	</body>
 </html>
